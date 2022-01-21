@@ -33,3 +33,6 @@ main{
 header{
      border-bottom: rgb(226, 43, 226) 2px solid;
 }
+div{
+    text-align: center;
+}
