@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel ="stylesheet" href="css/sylee.css">
     <title>Document</title>
 </head>
@@ -13,9 +14,9 @@
         <h2 class="subTitle">FOTOGRAFÍA</h2>
 
         <nav>
-            <ul>
-                <li><a href="home.html">Portafolio</a></li>
-                <li><a href=contacto.html>Contacto</a></li>
+            <ul >
+                <li onmouseover= "bars()" onmouseout="baroout()"><a  href="home.html"  id="botton">Portafolio</a></li>
+                <li  onmouseover= "bars2()" onmouseout="baroout2()"><a href=contacto.html  id="botton2" >Contacto</a></li>
             </ul>
         </nav>
 
@@ -28,13 +29,13 @@
     
         <section class="sectionImg">
             
-            <img class="imgHome" src="./img/MATRIMONIO.JPG">
+         <a onmouseover="imgsP('pDeImag')" onmouseout="imgsPOut('imgsPOut')"><img  class="imgHome"  src="./img/MATRIMONIO.JPG">   </a><p class="pDeImag"  id="idP">MATRIMONIO</p>
         </section>
         <section class="sectionImg">
-            <img class="imgHome" src="./img/ANILLOS.JPG">
+            <a onmouseover="imgsP2('pDeImag')" onmouseout="imgsPOut2('imgsPOut2')"> <img class="imgHome" src="./img/ANILLOS.JPG"></a> <p class="pDeImag"  id="idP2">ANILLOS</p>
         </section>
         <section class="sectionImg">
-            <img class="imgHome" src="./img/NOVIOS.JPG">
+            <a onmouseover="imgsP3('pDeImag')" onmouseout="imgsPOut3('imgsPOut')"> <img class="imgHome" src="./img/NOVIOS.JPG"></a><p class="pDeImag"  id="idP3">NOVIOS</p>
             
         </section>
     
@@ -44,14 +45,14 @@
 
     
     <section class="sectionImg">
-        <img class="imgHome" src="./img/BAUTISMO.JPG">
+        <a onmouseover="imgsP4('pDeImag')" onmouseout="imgsPOut4('imgsPOut')"> <img class="imgHome" src="./img/BAUTISMO.JPG"></a><p class="pDeImag"  id="idP4">FAMILIA</p>
         
     </section>
     <section class="sectionImg">
-        <img class="imgHome" src="./img/BAUTISMO (2).JPG">
+        <a onmouseover="imgsP5('pDeImag')" onmouseout="imgsPOut5('imgsPOut')"> <img class="imgHome" src="./img/BAUTISMO (2).JPG"></a><p class="pDeImag"  id="idP5">BAUTISMO</p>
     </section>
     <section class="sectionImg">
-        <img class="imgHome" src="./img/CELEBRACIÓN.JPG">
+        <a onmouseover="imgsP6('pDeImag')" onmouseout="imgsPOut6('imgsPOut')"><img class="imgHome" src="./img/CELEBRACIÓN.JPG"></a><p class="pDeImag"  id="idP6">CELEBRACIÓN</p>
     </section>
 
 </div>
@@ -59,19 +60,20 @@
 
     
     <section class="sectionImg">
-        <img class="imgHome" src="./img/PÁJARO.JPG">
+        <a onmouseover="imgsP7('pDeImag')" onmouseout="imgsPOut7('imgsPOut')"> <img class="imgHome" src="./img/PÁJARO.JPG"></a><p class="pDeImag"  id="idP7">PÁJARO</p>
         
     </section>
     <section class="sectionImg">
-        <img class="imgHome" src="./img/GLACIAR.jpg">
+        <a onmouseover="imgsP8('pDeImag')" onmouseout="imgsPOut8('imgsPOut')">  <img class="imgHome" src="./img/GLACIAR.jpg"></a><p class="pDeImag"  id="idP8">GLACIAR</p>
     </section>
     <section class="sectionImg">
-        <img class="imgHome" src="./img/TERO.JPG">
+        <a onmouseover="imgsP9('pDeImag')" onmouseout="imgsPOut9('imgsPOut')"> <img class="imgHome" src="./img/TERO.JPG"></a><p class="pDeImag"  id="idP9">TERO</p>
     </section>
 
 </div>
-
+<script src="js/bottom.js"></script>
     </main>
+    <footer></footer>
 
 </body>
 </html>

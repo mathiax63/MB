@@ -7,6 +7,7 @@ h1{
     letter-spacing: 0.2rem;
 }
 ul{
+    padding-bottom: 35px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -49,11 +50,9 @@ h2{
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
-main{
-    margin-top: 40px;
-}
+
 header{
-     border-bottom: rgb(226, 43, 226) 2px solid;
+    /* border-bottom: rgb(226, 43, 226) 2px solid;*/
      background-color: #f8f8f8;
 }
 div{
@@ -61,8 +60,16 @@ div{
 }
 .sectionImg{
     width: 100%;
+    height: 100%;
     max-width: 500px;
-    margin: 10px;
+    margin: 15px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+.sectionImg:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 15px 37px black;
+    opacity: 0.8;
 }
 .sectionImgMy{
     width: 100%;
@@ -86,4 +93,13 @@ div{
     flex-direction: row;
     justify-content: center;
     
+}
+.pDeImag{
+    
+    display: none;
+    top: 50%;
+    left: 37%;
+    position: absolute;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+
 }
