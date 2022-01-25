@@ -60,30 +60,29 @@ div{
 }
 .sectionImg{
     width: 100%;
-    height: 100%;
-    max-width: 500px;
-    margin: 15px;
+    margin: 20px;
     position: relative;
     transition: all 0.3s ease-in-out;
 }
 .sectionImg:hover{
     transform: scale(1.1);
-    box-shadow: 1px 15px 37px black;
+   /* box-shadow: 1px 15px 37px black;*/
     opacity: 0.8;
+   
+    width: 100%;
 }
 .sectionImgMy{
     width: 100%;
     margin: 10px;
+    
 }
 .imgHome{
     text-align: center;
     width: 100%;
-    
-    
+    height: 100%;
 }
 .imgMy{
     max-width: 700px;
-    max-height: 500px;
     width: 100%;
 }
 
