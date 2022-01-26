@@ -102,3 +102,12 @@ div{
     text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 
 }
+.contactContain{
+    margin:20px 2px;
+}
+.contactH2{
+    margin-top: 50px;
+}
+.contactP{
+    font-family: Arial,Helvetica,sans-serif;
+}
