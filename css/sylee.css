@@ -113,12 +113,12 @@ div{
     justify-content: center;
     
 }
-.ul{
+ul{
     text-align: center;
     flex-wrap: wrap;
 }
 .sectionImg{
-    margin: 20px;
+    margin: 20px 20px;
 }
 
 }
