@@ -11,8 +11,7 @@ ul{
     display: flex;
     justify-content: center;
     text-decoration: none;
-    list-style: none;
-    width: 95%;
+    list-style: none;  
     color: #292929;
     
 }
@@ -116,6 +115,7 @@ div{
 ul{
     text-align: center;
     flex-wrap: wrap;
+    width: 95%;
 }
 .sectionImg{
     margin: 20px 20px;
