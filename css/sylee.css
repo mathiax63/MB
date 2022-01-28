@@ -27,7 +27,7 @@ ul{
 }
 
 li{
-    width: 150px;
+    width: 125px;
     
     
    
@@ -120,5 +120,7 @@ ul{
 .sectionImg{
     margin: 20px 20px;
 }
-
+li{
+    width: 130px;
+}
 }
