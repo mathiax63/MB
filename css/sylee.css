@@ -1,7 +1,7 @@
 h1{
     text-align: center;
     color: #292929;
-    font-family:'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 32px;
     font-weight: inherit;
     letter-spacing: 0.2rem;
@@ -15,6 +15,7 @@ ul{
     color: #292929;
     
 }
+
 .subTitle{
     font-size: 14px;
    font-kerning: normal;
@@ -40,7 +41,7 @@ a{
 }
 p{
     margin: 5px 30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 h2{
     text-align: center;
@@ -69,17 +70,20 @@ div{
 }
 .sectionImgMy{
     width: 100%;
-    margin: 10px;
+    
     
 }
 .imgHome{
     text-align: center;
     width: 100%;
     height: 100%;
+    background-repeat: no-repeat;
+    background-image:url("imagen- de-usuario.jpg");
 }
 .imgMy{
-    max-width: 700px;
-    width: 100%;
+    text-align: center;
+    width: 80%;
+    margin-top: 10px;
 }
 
 

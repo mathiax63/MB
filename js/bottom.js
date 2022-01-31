@@ -1,6 +1,7 @@
 
 /*window.addEventListener("load", function () {})*/
 
+
 function bars(){
 let bar = document.getElementById("botton")
 bar.style.color = "Gray"
