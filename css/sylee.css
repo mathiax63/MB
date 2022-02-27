@@ -1,5 +1,8 @@
 
 
+body{
+    margin: 20px;
+}
 h1{
     text-align: center;
     color: #292929;
@@ -29,6 +32,7 @@ ul{
 }
 
 li{
+    margin:0px 10px;
     width: 125px;
     
     
@@ -39,6 +43,7 @@ a{
     text-decoration: none;
     color: rgb(15, 15, 15);
     font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
 }
 p{
     margin: 5px 30px;
@@ -58,7 +63,7 @@ div{
 }
 .sectionImg{
     width: 100%;
-    margin-top: 20px;
+    margin: 25px 0px;
     position: relative;
     transition: all 0.3s ease-in-out;
 }
