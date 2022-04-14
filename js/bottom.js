@@ -1,6 +1,8 @@
 
 /*window.addEventListener("load", function () {})*/
 
+/*lo dejo comentado por si quiere reincorporarlo*/ 
+/*
 
 function bars(){
 let bar = document.getElementById("botton")
@@ -116,3 +118,4 @@ function imgsPOut9 (){
     p.style.display = "none"
     
 }
+*/
